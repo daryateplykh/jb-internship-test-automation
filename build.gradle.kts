@@ -44,6 +44,7 @@ dependencies {
     // FUS reporting
     testImplementation("com.jetbrains.fus.reporting:ap-validation:76")
     testImplementation("com.jetbrains.fus.reporting:model:76")
+    testImplementation(kotlin("test"))
 }
 
 tasks.test {

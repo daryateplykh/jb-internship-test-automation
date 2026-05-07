@@ -8,7 +8,6 @@ import com.intellij.ide.starter.models.IdeInfo
 import com.intellij.ide.starter.models.TestCase
 import com.intellij.ide.starter.project.GitHubProject
 import com.intellij.ide.starter.runner.Starter
-//import com.intellij.tools.ide.starter.build.server.idea.ultimate.IdeaUltimate
 import org.kodein.di.DI
 import org.kodein.di.bindSingleton
 import java.nio.file.Path
@@ -38,8 +37,6 @@ class Setup {
             }
         }
 
-        private val LOCAL_PATH = System.getProperty("user.home")
-
         // ----- CONFIGURATION SECTION ----
         private val PATH_TO_INSTALLED_IDE = "C:\\Users\\alexe\\AppData\\Local\\Programs\\IntelliJ IDEA"
 
@@ -47,7 +44,7 @@ class Setup {
         val IDE_TYPE = IdeInfo(
             productCode = "IU",
             platformPrefix = "idea",
-            executableFileName = "idea64",
+            executableFileName = "idea",
             fullName = "IntelliJ IDEA Ultimate"
         )
 
