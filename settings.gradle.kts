@@ -1,0 +1,1 @@
+rootProject.name = "jb-internship-test-automation"
